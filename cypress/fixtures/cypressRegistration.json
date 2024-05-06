@@ -1,0 +1,20 @@
+{
+    "main_url": "https://dev.profteam.su/registration",
+    "login": "KaterinaTyukhanovaTest",
+    "email": "katerina_2005_tyukhanova@gmail.com",
+    "password": "QWEasd123",
+    "again_password": "QWEasd123",
+    "surname": "Тюханова",
+    "name": "Екатерина",
+    "patronym": "Вячеславовна",
+
+    "none_existent_login": "katya2005",
+    "none_existent_email": "katya@ru",
+    "none_existent_password": "123456",
+    "none_existent_again_password": "QWEpass123",
+    "none_existent_surname": "Тюханова2005",
+    "already_existent_login": "katerina",
+    "already_existent_email": "klimovafiona@gmail.com",
+    "none_existent_name": "Екатерина2005",
+    "none_existent_patronym": "Вячеславовна2005"
+}
