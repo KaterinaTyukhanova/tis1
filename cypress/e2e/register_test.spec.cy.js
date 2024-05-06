@@ -5,7 +5,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
 
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)

@@ -5,7 +5,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
             
             cy.log('Ввод неправильного логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.none_existent_login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.none_existent_login)
             
             
             cy.log('Проверка, что появился элемент сигнализирующий об ошибке')
@@ -19,7 +19,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
             
             cy.log('Ввод уже существующего логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.already_existent_login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.already_existent_login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)
@@ -44,7 +44,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
             
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод неправильной почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.none_existent_email)
@@ -60,7 +60,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
             
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод уже существующей почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.already_existent_email)
@@ -85,7 +85,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
             
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)
@@ -104,7 +104,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
             
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)
@@ -126,7 +126,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
 
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)
@@ -154,7 +154,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
 
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)
@@ -185,7 +185,7 @@ describe('Registration Test', () => {
             cy.visit(data.main_url)
 
             cy.log('Ввод логина')
-            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium .form-input--text').type(data.login)
+            cy.get(':nth-child(1) > :nth-child(1) > .form-control--medium > .form-input--text').type(data.login)
             
             cy.log('Ввод почты')
             cy.get(':nth-child(1) > :nth-child(2) > .form-control--medium > .form-input--email').type(data.email)
