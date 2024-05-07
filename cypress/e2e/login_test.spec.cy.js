@@ -13,7 +13,7 @@ describe('Authorization Test', () => {
             cy.log('Клик по кнопке "Войти"')
             cy.get('.form__buttons > :nth-child(3)').click()
 
-            cy.log('Проверка, что пользователь успешно авторизовался (перешл в ЛК)')
+            cy.log('Проверка, что пользователь успешно авторизовался (перешел в ЛК)')
             cy.url().should('equal', 'https://dev.profteam.su/account/main')
         });
     });
