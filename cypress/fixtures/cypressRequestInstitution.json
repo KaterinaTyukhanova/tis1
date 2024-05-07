@@ -2,7 +2,8 @@
     "main_url": "https://dev.profteam.su/login",
     "login": "ekaterina",
     "password": "QWEasd123",
-    "name_institution": "ПиццеРио",
-    "address_institution": "Сергея Лазо 7",
-    "description_institution": "Самая вкусная пицца в городе"
+    "name_institution": "КИПТСУ",
+    "address_institution": "Беринга 13",
+    "description_institution": "Колледж индустрии питания, туризма и сферы услуг",
+    "already_add_role_login": "kat"
 }

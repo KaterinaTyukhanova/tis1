@@ -4,5 +4,6 @@
     "password": "QWEasd123",
     "name_company": "ПиццеРио",
     "address_company": "Сергея Лазо 7",
-    "description_company": "Самая вкусная пицца в городе"
+    "description_company": "Самая вкусная пицца в городе",
+    "already_add_role_login": "kat"
 }
