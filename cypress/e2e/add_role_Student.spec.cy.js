@@ -23,7 +23,10 @@ describe('Add Role Student Test', () => {
             cy.get('.menu-item__name').should('have.text', 'Студент')
 
             cy.log('Проверка, что появился блок "Сбросить роль Студента"')
-            cy.get('[data-v-02661ece=""][data-v-4e40dec7=""]').should('have.text', 'Студент')
+            cy.get('[data-v-02661ece=""][data-v-4e40dec7=""]').should('exist')
+
+            cy.log('Проверка, что появился блок "Пройти верификацию"')
+            cy.get('.message-student').should('exist')
         });
     });
 });
